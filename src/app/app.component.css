@@ -1,0 +1,87 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    border: 1px solid white;
+background: rgba(255, 255, 255, 0.21);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.9px);
+-webkit-backdrop-filter: blur(8.9px);
+border: 1px solid rgba(255, 255, 255, 0.32);
+}
+.logo{
+    width: 100px;
+    align-items: center ;
+    border-radius: 50%;
+}
+.heading{
+    font-style: italic;
+    text-align: center;
+    font-size: 50px;
+}
+
+.content
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    color: #c1c1c1;
+}
+.input-bar{
+    width: 20%;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid grey;
+    font-size: 15px;
+    text-align: center;
+}
+
+.input-button{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button-bar{
+    border-radius: 50px;
+    color: green;
+    width: 8%;
+}
+.button-bar:hover{
+    cursor: pointer;
+    transform: scale(1.09);
+    transition: 1s;
+}
+
+.list>ul{
+    list-style: none;
+    width: 80%;
+}
+
+.list{
+    width: 50%;
+    display: inline;
+    height: 20%;
+    justify-content: center ;
+}
+
+.button-del{
+    float: right;
+    width: 20%;
+    border-radius: 25px;
+    font-size: 18px;
+    text-align: center;color: red;
+}
+.button-del:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+    padding: 2px;
+}
